@@ -6,41 +6,44 @@ body{
 margin: 0;
 font-family: Arial, sans-serif;
 background: linear-gradient(to right, #19d7f8, #fd00da);
+text-align: center; 
+color: black; 
 }
 .button{
-top: 40px; 
-right: 80px; 
-position: absolute; 
-text-decoration: none; 
-color: black; 
-border: 2px solid  transparent;
-border-radius: 20px;
-background-origin: border-box; 
-background-clip: content-box, border-box; 
+display: inline-block;
+margin: 20px;
+padding: 12px 25px;
+text-decoration: none;
+color: white;
+background: black;
+border-radius: 25px;
+transition: 0.3s;
+}  
+.button:hover{
+    background: white;
+    color: black;
 }
-.button2{
-top: 40px; 
-right: 80px; 
-position: absolute; 
-text-decoration: none; 
-color: black; 
-border: 2px solid  transparent;
-border-radius: 20px;
-background-origin: border-box; 
-background-clip: content-box, border-box; 
+.contact a{
+    display: block;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
 }
-  
+.contact a:hover{
+    text-decoration: underline;
+}
 </style>
-<title>Welcome to My GitHub Portfolio</title>
+<title>Evelyn Martinez | Portfolio</title>
 </head>
 <body>
 <h1>Welcome to My Portfolio</h1>
-<p>This is my personal portfolio showcasing my work.</p>
+<p>This is my personal portfolio showcasing my work. I am a student at Saint Xavier University. I am a senior and I am graduating this semeter. I like learning more about computer sccience and everything it deals with coding. </p>
 <a class = "button" href = "https://github.com/evelyn-mart-456"> My Github Repositories</a>
-<a class = "button2" href = "https://github.com/evelyn-mart-456/Resume">My Resume</a>
+<a class = "button" href = "https://github.com/evelyn-mart-456/Resume">My Resume</a>
 <h2>Contact Information</h2>
+  <div class = "contact">
 <a href="em3884941@gmail.com"> em3884941@gmail.com </a>
 <a href="https://www.linkedin.com/in/evelyn-martinez-9814092a0/">Evelyn Martinez|Linked In</a>
-  
+  </div> 
 </body>
 </html>
